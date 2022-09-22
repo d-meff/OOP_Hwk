@@ -24,5 +24,6 @@ print(
 Name: {jimmys_record.get_name()}
 ID Number: {jimmys_record.get_ID_number()}
 Department: {jimmys_record.get_department()}
-Gross Pay: ${jimmys_record.get_monthly_salary()}
-Net Pay ${float(jimmys_record.get_monthly_salary() - jimmys_bill_total)}''')
+Gross Pay: ${format(jimmys_record.get_monthly_salary(), ",.2f")}
+Net Pay ${format(float(jimmys_record.get_monthly_salary() - jimmys_bill_total), ",.2f")}'''
+)
