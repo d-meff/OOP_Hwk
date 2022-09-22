@@ -2,7 +2,7 @@ import EmployeeClass as emp
 import PayrollDeductionsClass as pd
 
 
-jimmys_record = emp.Employee("Jimmy Smith", 58475, "IT", "Developer", 6800.00)
+jimmys_record = emp.Employee("Jimmy Smith", 58475, "Information Systems", "Developer", 6800.00)
 
 transaction_1 = pd.PayrollDeductions("food court", "8/14/2022", 22.50, 39119)
 transaction_2 = pd.PayrollDeductions("gift contribution", "8/12/2022", 25.00, 58475)
