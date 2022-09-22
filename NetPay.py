@@ -19,6 +19,7 @@ for transaction in transactions:
         jimmys_bill_total += transaction.get_charge()
 
 
+
 print(
     f'''** Employee Pay **
 Name: {jimmys_record.get_name()}
